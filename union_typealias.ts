@@ -25,3 +25,16 @@ user = {
     nome: "andre",
     idade: 21,
 };
+
+
+//forma alternativa com objetos: interface
+
+interface User {
+    nome: string;
+    idade: number;
+}
+//A diferença na sintaxe é a mudança da palavra reservado e o sinal de igual (=) que não é usado. Por padrão é utilizado interface para criar tipos de objetos, porém não é regra. Apenas deve ser usado se a equipe de desenvolvimento preferir.
+
+//um padrão de mercado antigo era utilizar a primeira letra de "type" ou "interface" para identificar como foi feito aquele tipo. 
+// Exemplo 1: type TUsuario = {}
+// Exemplo 2: interface IUsuario {};
